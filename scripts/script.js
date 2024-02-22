@@ -1,4 +1,5 @@
 $(document).ready(function() {
-    $("#topBar").load("/portfolio/headers.html #headbar");
+    $("#artTopBar").load("/portfolio/headers.html #artheadbar");
     $("#bottomBar").load("/portfolio/headers.html #footbar");
+    $("#codeTopBar").load("/portfolio/headers.html #codeheadbar");
 });
