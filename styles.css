@@ -84,3 +84,18 @@ body {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
   }
+
+  @keyframes fade-in {
+    0%   {opacity: 0;}
+    25%  {opacity: 0.25;}
+    50%  {opacity: 0.5;}
+    75%  {opacity: 0.75;}
+    100% {opacity: 1;}
+  }
+
+  .fade-in {
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+  }
