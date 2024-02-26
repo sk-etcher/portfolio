@@ -32,5 +32,5 @@ function setup() {
   }
   //open in the same window
     function mouseClicked(){
-      window.open("https://skfolio.glitch.me/homepage.html","_self");
+      window.open("https://sk-etcher.github.io/portfolio/code.html","_self");
     }
