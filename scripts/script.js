@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#artTopBar").load("/portfolio/headers.html #artheadbar");
+    $("#lightModeTopBar").load("/portfolio/headers.html #lightmodeheadbar");
     $("#bottomBar").load("/portfolio/headers.html #footbar");
-    $("#codeTopBar").load("/portfolio/headers.html #codeheadbar");
+    $("#darkModeTopBar").load("/portfolio/headers.html #darkmodeheadbar");
 });
