@@ -1,7 +1,6 @@
 $(document).ready(function() {
-    $("#lightModeTopBar").load("/portfolio/headers.html #lightmodeheadbar");
+    $("#topBar").load("/portfolio/headers.html #headbar");
     $("#bottomBar").load("/portfolio/headers.html #footbar");
-    $("#darkModeTopBar").load("/portfolio/headers.html #darkmodeheadbar");
 });
 
 var labeltext = document.getElementsByClassName('projectThumb').innerText;
