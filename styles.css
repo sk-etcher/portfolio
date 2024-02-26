@@ -6,6 +6,11 @@ main {
   margin: 2% 10% 5% 10%;
 }
 
+footer {
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
 /*Containers*/
 .flex-container {
     display: flex;
