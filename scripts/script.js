@@ -12,3 +12,7 @@ function showlabels(){
   {labeltext.style.display = "block";}
   else {labeltext.style.display = "none"}
 }
+
+const scrollSpy = new bootstrap.ScrollSpy(document.body, {
+  target: '#simple-list-example'
+})
