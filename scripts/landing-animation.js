@@ -28,7 +28,7 @@ function setup() {
     strokeWeight(8);
     
   line(mouseX, mouseY, pmouseX, pmouseY);
-    print(pmouseX + ' -> ' + mouseX);
+    print(h + ', ' + s + ', ' + b);
     
   }
   //open in the same window
