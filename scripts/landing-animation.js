@@ -2,12 +2,13 @@
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
-    frameRate(10);
+    frameRate(6);
       textAlign(CENTER);
+    colorMode(HSB, 100)
   }
   
-  let r;
-  let g;
+  let h;
+  let s;
   let b;
   //referred to https://p5js.org/reference/#/p5/pmouseX
   
@@ -19,12 +20,12 @@ function setup() {
     textSize(36);
     text("Click Anywhere to Enter", width/2, height/2);
     
-    r = random(0,255);
-    g = random(0,255);
-    b = random(0,255);
+    h = random(0,100);
+    s = random(25,75);
+    b = random(50,100);
     
-    stroke(r,g,b);
-    strokeWeight(5);
+    stroke(h, s, b);
+    strokeWeight(8);
     
   line(mouseX, mouseY, pmouseX, pmouseY);
     print(pmouseX + ' -> ' + mouseX);
