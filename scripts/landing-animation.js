@@ -2,7 +2,7 @@
 
 function setup() {
     createCanvas(windowWidth, windowHeight);
-    frameRate(6);
+    frameRate(10);
       textAlign(CENTER);
     colorMode(HSB, 100)
   }
@@ -16,7 +16,7 @@ function setup() {
     
     fill(0);
   noStroke();
-    textFont("Courier New");
+    textFont("Verdana");
     textSize(36);
     text("Click Anywhere to Enter", width/2, height/2);
     
